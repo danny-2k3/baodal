@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coca-Cola</title>
+
+  <!-- 
+    - favicon link
+  -->
+  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="active" data-header>
+    <div class="container">
+
+      <!-- 
+        - overlay
+      -->
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logococa.png" alt="Coca logo" width="100" height="80">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#hero" class="navbar-link">Trang chủ</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#podcast" class="navbar-link">Giới thiệu</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Sản phẩm</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#newsletter" class="navbar-link">Phản hồi</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#footer-top" class="navbar-link">Liên hệ</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-actions">
+
+          <button class="navbar-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+          <button class="navbar-btn">
+            <ion-icon name="log-in-outline"></ion-icon>
+          </button>
+
+          <button class="navbar-btn">
+            <ion-icon name="cart-outline"></ion-icon>
+          </button>
+
+
+
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="hero">
+
+        <div class="hero-content">
+
+          <img src="./assets/images/hero-title.png" alt="Podcast" class="hero-title">
+
+          <p class="hero-text">
+            Vào ngày 8 tháng 5 năm 1886, Tiến sĩ John Pemberton đã lần đầu tiên mang Coca-Cola đến với người dùng trên thế giới khi bày bán tại Nhà thuốc ở trung tâm thành phố Alaska. Coca-Cola là một thức uống giải khát mới mẻ ngay từ khi được ra mắt, phục vụ lên đến 9 người mỗi ngày trong năm đầu tiên.
+          </p>
+
+          <div class="hero-btn-group">
+
+            <button class="btn btn-primary">
+              
+
+              <span>Xem Nhanh</span>
+            </button>
+
+            <div class="btn-link-wrapper">
+
+              <p class="btn-title">Loại sản phẩm:</p>
+
+              <a href="#" class="btn-link">
+                <img src="./assets/images/can.png" alt="">
+   
+                   <span>Dạng lon</span>
+                 </a>
+
+              <a href="#" class="btn-link">
+                <img src="./assets/images/water.png" alt="">
+
+                <span>Dạng chai</span>
+              </a>
+
+              
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hero-banner"></div>
+
+      </section>
+
+
+
+
+
+<!-- Sản Phẩm -->
+
+      <section class="podcast" id="podcast">
+        <ul class="podcast-list">
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/cola-energy.png" alt="Coca Energy">
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+
+                  <p class="pod-epi">Type: 01</p>
+                </div>
+
+                <h3 class="h3 card-title">Coca Cola Energy Guarana</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/coca-cafe.jpg" alt="Coca Cola Cafe" width="270" height="180">
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+
+
+                  <p class="pod-epi">Type: 02</p>
+                </div>
+
+                <h3 class="h3 card-title"></h3>
+              </div>
+              <h3 class="h3 card-title">Coca Cola thêm cafe nguyên chất</h3>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/coca-zero.webp" alt="Coca Cola Zero" width="270" height="180">
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+
+
+                  <p class="pod-epi">Type: 03</p>
+                </div>
+
+                <h3 class="h3 card-title">Coca Cola không đường</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/coca-energy-cherry.jpg" alt="Coca Cola Cherry" width="270" height="180">
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+
+
+                  <p class="pod-epi">Type: 04</p>
+                </div>
+
+                <h3 class="h3 card-title">Coca Cola Energy Cherry</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/coca-chai nhom.jpg" alt="Coca Cola chai" width="270" >
+
+                
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+ 
+
+                  <p class="pod-epi">Type: 05</p>
+                </div>
+
+                <h3 class="h3 card-title">Coca Cola dạng chai nhôm</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/coca-lon ngắn.webp" alt="Dạng lon ngắn">
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+
+
+                  <p class="pod-epi">Type: 06</p>
+                </div>
+
+                <h3 class="h3 card-title">Coca Cola dạng lon ngắn</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/coca-clear.jpg" alt="Coca Cola clear" height="265">
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+
+
+                  <p class="pod-epi">Type: 07</p>
+                </div>
+
+                <h3 class="h3 card-title">Coca Cola Clear</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/coca-truyenthong.webp" alt="Coca Cola dạng chai huyền thoại" height="265">
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+
+
+                  <p class="pod-epi">Type: 08</p>
+                </div>
+
+                <h3 class="h3 card-title">Coca Cola dạng chai huyền thoại</h3>
+              </div>
+
+            </a>
+          </li>
+
+        </ul>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="newsletter" id="newsletter">
+        <div class="newsletter-card">
+
+          <div class="card-content">
+            <h3 class="h3 card-title">Nhập email để được phản hồi.</h3>
+
+            <p class="card-text">
+             Nếu gặp sự cố về mặt hàng của chúng tôi. Bạn hãy nhập email để  được tư vấn và giải thích thắc mắc về sản phẩm.
+            </p>
+          </div>
+
+          <form action="" class="card-form" data-form>
+            <input type="email" name="email_address" placeholder="Email của bạn...." required class="input-field"
+              data-input>
+
+            <button type="submit" class="btn btn-primary" disabled data-submit>Đăng kí</button>
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-top" id="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logococa.png" alt="Coca logo" width="150">
+          </a>
+
+          <p class="footer-text">
+            Văn phòng đại diện Coca-Cola Southeast Asia Inc. <br>
+            Lầu 10, tòa nhà Metropolitan, 235 Đồng Khởi, Quận 1, tp HCM, Việt Nam
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-link-title">Start A Conversation</p>
+          </li>
+
+          <li>
+            <a href="mailto:hello@micro.com" class="footer-link">coca.cola@gmail.com</a>
+          </li>
+
+          <li>
+            <a href="tel:+0123454678" class="footer-link">+01234 54678</a>
+          </li>
+
+          <li>
+            <a href="tel:+15780346789" class="footer-link">+1 (578) 034-6789</a>
+          </li>
+
+        </ul>
+
+        <div class="social-list-box">
+
+          <p class="social-title">Follow Us On:</p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-soundcloud"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-apple"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2022 <a href="#">Bảo Đan</a>. All Rights Reserved
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
