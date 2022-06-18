@@ -276,11 +276,12 @@ header .container {
 }
 
 
+* {box-sizing:border-box}
 
 
 
 /*-----------------------------------*\
-  #HERO
+  #Giới thiệu
 \*-----------------------------------*/
 
 .hero { padding: 140px 0 var(--section-padding); }
@@ -338,11 +339,17 @@ header .container {
 
 
 /*-----------------------------------*\
-  #PODCAST
+  #Sản phẩm
 \*-----------------------------------*/
 
-.podcast { padding: var(--section-padding) 0; }
-
+.podcast { 
+  padding: var(--section-padding) 0; 
+  
+}
+.card-banner img{
+  width: 295px;
+  height: 195px;
+}
 .podcast-list {
   display: grid;
   gap: 30px;
@@ -430,7 +437,7 @@ header .container {
 
 
 /*-----------------------------------*\
-  #NEWSLETTER
+  #Phản hồi
 \*-----------------------------------*/
 
 .newsletter { padding: var(--section-padding) 0; }
@@ -522,7 +529,7 @@ header .container {
   width: max-content
 }
 
-.footer-link:is(:hover, :focus) { color: var(--blue-ryb); }
+.footer-link:is(:hover, :focus) { color: red; }
 
 .social-title {
   background: var(--gradient);
@@ -553,7 +560,7 @@ header .container {
   border-radius: 50%;
 }
 
-.social-link:is(:hover, :focus) { background: var(--blue-ryb); }
+.social-link:is(:hover, :focus) { background: red; }
 
 .copyright {
   color: var(--heliotrope-gray);
@@ -568,7 +575,7 @@ header .container {
   display: inline-block;
 }
 
-.copyright a:is(:hover, :focus) { color: var(--blue-ryb); }
+.copyright a:is(:hover, :focus) { color: red; }
 
 
 
