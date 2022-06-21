@@ -341,7 +341,18 @@ header .container {
 /*-----------------------------------*\
   #Sản phẩm
 \*-----------------------------------*/
-
+.danglon{
+  background: var(--gradient);
+  width: max-content;
+  font-size: var(--fs-2);
+  font-weight: var(--fw-700);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
 .podcast { 
   padding: var(--section-padding) 0; 
   
@@ -373,6 +384,7 @@ header .container {
 
 .podcast-card:is(:hover, :focus) .card-banner::before {
   background: hsla(0, 0%, 100%, 0.1);
+  
 }
 
 .card-banner img { width: 100%; }
